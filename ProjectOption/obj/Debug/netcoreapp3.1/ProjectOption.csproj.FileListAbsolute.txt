@@ -1,0 +1,14 @@
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.csproj.AssemblyReference.cache
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.AssemblyInfoInputs.cache
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.AssemblyInfo.cs
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.csproj.CoreCompileInputs.cache
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\bin\Debug\netcoreapp3.1\ProjectOption.exe
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\bin\Debug\netcoreapp3.1\ProjectOption.deps.json
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\bin\Debug\netcoreapp3.1\ProjectOption.runtimeconfig.json
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\bin\Debug\netcoreapp3.1\ProjectOption.runtimeconfig.dev.json
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\bin\Debug\netcoreapp3.1\ProjectOption.dll
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\bin\Debug\netcoreapp3.1\ProjectOption.pdb
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.dll
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.pdb
+C:\Users\omar_\Desktop\ProjectOption\ProjectOption\obj\Debug\netcoreapp3.1\ProjectOption.genruntimeconfig.cache
