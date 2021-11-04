@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omar_\\Desktop\\ProjectOption\\ProjectOption\\ProjectOption.csproj": {}
+    "C:\\Users\\omar_\\Source\\Repos\\omarelalami\\ProjectOption\\ProjectOption\\ProjectOption.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omar_\\Desktop\\ProjectOption\\ProjectOption\\ProjectOption.csproj": {
+    "C:\\Users\\omar_\\Source\\Repos\\omarelalami\\ProjectOption\\ProjectOption\\ProjectOption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omar_\\Desktop\\ProjectOption\\ProjectOption\\ProjectOption.csproj",
+        "projectUniqueName": "C:\\Users\\omar_\\Source\\Repos\\omarelalami\\ProjectOption\\ProjectOption\\ProjectOption.csproj",
         "projectName": "ProjectOption",
-        "projectPath": "C:\\Users\\omar_\\Desktop\\ProjectOption\\ProjectOption\\ProjectOption.csproj",
+        "projectPath": "C:\\Users\\omar_\\Source\\Repos\\omarelalami\\ProjectOption\\ProjectOption\\ProjectOption.csproj",
         "packagesPath": "C:\\Users\\omar_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omar_\\Desktop\\ProjectOption\\ProjectOption\\obj\\",
+        "outputPath": "C:\\Users\\omar_\\Source\\Repos\\omarelalami\\ProjectOption\\ProjectOption\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\omar_\\AppData\\Roaming\\NuGet\\NuGet.Config",
