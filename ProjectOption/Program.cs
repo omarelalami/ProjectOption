@@ -41,14 +41,16 @@ namespace ProjectOption
             int n = 0;
             while (libre.Any())
             {
-                jr = 0;
                 for (int i = 1; i < 4; i++)
+
+
                 {
-                    if (et.Petud[je, i] == "abd" && nbA != 0)
+                    jr = 0;
+                    if ((Petud[je, i] == "abd") && nbA != 0)
                     {
-                        res[ir, jr] = et.Petud[n, 0];
+                        res[ir, jr] = Petud[n, 0];
                         jr++;
-                        res[ir, jr] = et.Petud[ir, i];
+                        res[ir, jr] = "abd";
                         nbA--;
                         i = 4;
 
@@ -56,21 +58,21 @@ namespace ProjectOption
 
 
 
-}
-                    else if (et.Petud[je, i] == "gl" && nbG != 0)
+                    }
+                    else if (Petud[je, i] == "gl" && nbG != 0)
                     {
-                        res[ir, jr] = et.Petud[n, 0];
+                        res[ir, jr] = Petud[n, 0];
                         jr++;
-                        res[ir, jr] = et.Petud[ir, i];
+                        res[ir, jr] = "gl";
                         nbG--;
                         i = 4;
 
                     }
-                    else if (et.Petud[je, i] == "asr" && nbR != 0)
+                    else if (Petud[je, i] == "asr" && nbR != 0)
                     {
-                        res[ir, jr] = et.Petud[n, 0];
+                        res[ir, jr] = Petud[n, 0];
                         jr++;
-                        res[ir, jr] = et.Petud[ir, i];
+                        res[ir, jr] = "asr";
                         nbR--;
                         i = 4;
 
@@ -82,8 +84,9 @@ namespace ProjectOption
                 }
 
                 ir++;
+                je++;
 
-                libre.Remove(et.nom[r]);
+                libre.Remove(nom[r]);
                 r++;
                 n++;
 
