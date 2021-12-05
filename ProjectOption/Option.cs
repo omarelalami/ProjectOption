@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,7 +11,7 @@ namespace ProjectOption
         int nbR; //Nomber de place ASR
 
 
-        public void  setnbA(int nbA)
+        public void setnbA(int nbA)
 
         {
             this.nbA = nbA;
@@ -25,7 +25,7 @@ namespace ProjectOption
             this.nbG = nbG;
 
         }
-       public  void setnbR(int nbR)
+        public void setnbR(int nbR)
         {
 
 
@@ -40,71 +40,32 @@ namespace ProjectOption
         public int getnbR()
         { return nbR; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
         Etudiant et = new Etudiant();
         
-        
-
-
-
         public void range()
         {
             for (int i = et.getnbE() - 1; i >= 1; i--)
                 for (int j = 2; j <= i; j++)
                 {
+                    if (et.getNote(i))
+
+                    {
+                        int tempNote = et.getNote(j - 1);
+                        et.setNote(et.getnote(j), j - 1);
+                        et.setNote(tempNote, j);
 
 
-                    int tempNote = et.note[j - 1];
-                    et.note[j - 1] = et.note[j];
-                    et.note[j] = tempNote;
 
-
-
-                    string tempNom = et.nom[j - 1];
-                    et.nom[j - 1] = et.nom[j];
-                    et.nom[j] = tempNom;
-
+                        string tempNom = et.getNom(j - 1);
+                        et.setNom(et.getnom(j), j - 1);
+                        et.setNom(tempNom, j);
+                    }
                 }
-        }
-         
-
-
-
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
         }
+    }
 }
