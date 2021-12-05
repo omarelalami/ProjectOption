@@ -41,8 +41,7 @@ namespace ProjectOption
 
 
         }
-          public  string getEtudiante(int i)
-
+          public  string getNom(int i)
 
         { 
             return nom[i];
