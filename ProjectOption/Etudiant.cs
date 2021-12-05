@@ -16,7 +16,7 @@ namespace ProjectOption
         public Etudiant(int nbe)
         {
 
-            this.getnbE = i;
+            this.nbE = nbe;
         }
 
         public  void setnbE()
