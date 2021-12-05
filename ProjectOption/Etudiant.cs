@@ -19,9 +19,9 @@ namespace ProjectOption
             this.nbE = nbe;
         }
 
-        public  void setnbE()
+        public  void setnbE(nbe)
         {
-            nbE = int.Parse(Console.ReadLine());
+           this.nbE = nbe;
 
             }
         public int getnbE ()
