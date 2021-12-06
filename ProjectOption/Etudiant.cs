@@ -8,7 +8,7 @@ namespace ProjectOption
     {
 
           static int nbE; //le nombre totale des étudiante 
-          static int ajouter=0;
+          static int ajouter=0; //un variable static qui incrémente pour chaque insertion de donnée
 
         private string[] nom = new string[nbE]; //un tableau pour stocker les noms des étudiates
         private int[] note = new int[nbE];   //un tableau pour stocker les noms des étudiates
